@@ -1,0 +1,43 @@
+.banner {
+    background-color: #f7f8fa;
+    text-align: center;
+    font-family: Poppins,sans-serif
+}
+
+.text-1 {
+    font-weight: 600;
+    font: size 50px;
+
+}
+
+.text-2 {
+    color: #6e6e6e;
+    
+}
+
+.btn-1 {
+    color: #fc7341;
+    background-color: #fec4af;
+    border: 2px solid transparent;
+    padding: .625rem 1.25rem;
+    font-size: .875rem;
+    margin-right: .25rem;
+    border-radius: .1875rem;
+    
+}
+
+.btn-2{
+    color: #5ed6b3;
+    background-color: #b7eddd;
+    border: 2px solid transparent;
+    padding: .625rem 1.25rem;
+    font-size: .875rem;
+    margin-right: .25rem;
+    border-radius: .1875rem;    
+    
+}
+
+
+
+
+
