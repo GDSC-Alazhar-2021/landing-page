@@ -1,0 +1,64 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.services{
+    margin-top: 100px;
+}
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.ser-title{
+    width: 40%;
+}
+.ser-title p{
+    color: #6e6e6e;
+}
+
+.service img{
+    width: 40%;
+    height: 340px;
+}
+
+.service .btn-ser{
+    overflow: hidden;
+    color: white;
+    font-size: 15px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 4px 27px;
+    background-color: #1998ff;
+    margin-top: 20px;
+    
+}
+
+@keyframes sre-btn-hover {
+    16.65%{
+        transform: translateX(8px);
+    }
+    33.3%{
+        transform: translateX(-6px);
+    }
+    49.95%{
+        transform: translateX(4px);
+    }
+    66.6%{
+        transform: translateX(-2px);
+    }
+    83.6%{
+        transform: translateX(1px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.btn-ser:hover{
+    animation-name: sre-btn-hover;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
