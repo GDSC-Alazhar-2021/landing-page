@@ -1,0 +1,54 @@
+.our_case {
+    text-align: center;
+    margin:50px 0px 50px 0px ;
+}
+
+.our_case h6 { 
+     color:#6c757d;
+    }
+    
+.cases {
+    display: flex;
+    justify-content:space-evenly;
+    margin:  0px 85px 0px 85px;
+   
+}
+
+.cases div {
+    text-align: center;
+    width: calc(90% /4);
+
+}
+
+.cases div div {
+    width: 100%;
+    height: 250px;
+}
+
+.blue {
+    background-color:  #000637;
+ }
+
+.yellow {
+    background-color: #ffad00;
+}
+
+.vilot {
+    background-color:#6f42c1;
+}
+
+.green {
+    background-color: #20c997;
+}
+
+.img {
+margin-top: 25%;
+} 
+
+h6 {
+    margin-top: 20px;
+}
+
+p {
+    color: #343a40;
+}
