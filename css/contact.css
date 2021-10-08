@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.contact-us .contact-us-bg{
+    
+    background-image: url(../img/gdpr.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: center;
+    padding: 83px 0px 68px 0px;
+    
+}
+
+.contact-us .content-contact{
+    padding-bottom: 20px;
+}
+
+.contact-us .btn-contact{
+    border-radius: 50px;
+    color: red;
+    border: 2px solid red;
+    background-color: #fff;
+    padding: 10px;
+    width: 12%;
+}
+
+.contact-us .btn-contact:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: red;
+    transition: all .5s;
+}
